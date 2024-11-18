@@ -31,16 +31,16 @@ jobs:
           git config --local user.name "darelladitiya"
           git add -A
           
-          arr[0]="chore(bot): 😂"
-          arr[1]="chore(bot): 😱"
-          arr[2]="chore(bot): 👿"
-          arr[3]="chore(bot): 💩"
-          arr[4]="chore(bot): 🙏"
-          arr[5]="chore(bot): 🙈"
-          arr[6]="chore(bot): 🐐"
-          arr[7]="chore(bot): 🤖"
-          arr[8]="chore(bot): 🟩"
-          arr[9]="chore(bot): 👻"
+          arr[0]="😂"
+          arr[1]="😱"
+          arr[2]="👿"
+          arr[3]="💩"
+          arr[4]="🙏"
+          arr[5]="🙈"
+          arr[6]="🐐"
+          arr[7]="🤖"
+          arr[8]="🟩"
+          arr[9]="👻"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
