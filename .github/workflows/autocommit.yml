@@ -1,4 +1,4 @@
-name: Commit
+name: Auto commit
 
 on:
 
@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "0 0,9,12,15,20 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+  - cron: "0 0,7,9,11,15,20 * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 jobs:
   auto_commit:
@@ -27,20 +27,20 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "darelladitiya@gmail.com"
-          git config --local user.name "darelladitiya"
+          git config --local user.email "raisanuraida11@gmail.com"
+          git config --local user.name "raisanuraida"
           git add -A
           
-          arr[0]="😂"
-          arr[1]="😱"
-          arr[2]="👿"
-          arr[3]="💩"
-          arr[4]="🙏"
-          arr[5]="🙈"
-          arr[6]="🐐"
-          arr[7]="🤖"
-          arr[8]="🟩"
-          arr[9]="👻"
+          arr[0]="🐱‍👤"
+          arr[1]="🐱‍👓"
+          arr[2]="🐱‍🚀"
+          arr[3]="🐱‍🐉"
+          arr[4]="🐱‍💻"
+          arr[5]="🐱‍🏍"
+          arr[6]="🦦"
+          arr[7]="😺"
+          arr[8]="😾"
+          arr[9]="😼"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
